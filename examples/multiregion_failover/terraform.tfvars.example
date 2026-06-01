@@ -1,0 +1,29 @@
+tenancy_ocid     = "ocid1.tenancy.oc1..exampleuniqueID"
+user_ocid        = "ocid1.user.oc1..exampleuniqueID"
+fingerprint      = "aa:bb:cc:dd:ee:ff"
+private_key_path = "~/.oci/oci_api_key.pem"
+home_region      = "eu-frankfurt-1"
+compartment_id   = "ocid1.compartment.oc1..exampleuniqueID"
+
+zone_name   = "example.com"
+domain_name = "app.example.com"
+
+anchor_record_address = "203.0.113.10"
+
+endpoints = [
+  {
+    name   = "region1"
+    region = "eu-frankfurt-1"
+    ip     = "203.0.113.10"
+  },
+  {
+    name   = "region2"
+    region = "uk-london-1"
+    ip     = "198.51.100.20"
+  },
+  {
+    name   = "region3"
+    region = "eu-zurich-1"
+    ip     = "192.0.2.30"
+  }
+]
