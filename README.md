@@ -4,6 +4,9 @@ Reusable Terraform / OpenTofu module for provisioning OCI DNS steering policies,
 
 Support expectations are documented in [SUPPORT.md](SUPPORT.md).
 
+## Used By
+
+This module is used as a building block by the higher-level [FoggyKitchen Landing Zone Orchestrator](https://github.com/foggykitchen/foggykitchen-landing-zone-orchestrator), where it is composed into Azure, OCI, and multicloud landing zone patterns.
 
 ## What It Covers
 
