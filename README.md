@@ -2,6 +2,9 @@
 
 Reusable Terraform / OpenTofu module for provisioning OCI DNS steering policies, optional health checks, and domain attachments.
 
+Support expectations are documented in [SUPPORT.md](SUPPORT.md).
+
+
 ## What It Covers
 
 - `oci_dns_steering_policy`
